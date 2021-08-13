@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">    
 </head>
 <body>
     <header class="header">
@@ -24,6 +29,7 @@
             </div>          
         </nav>
 
+        <!--Sidebar-->
         <aside class="sidebar">
             <div class="social-box">
                 <a href="" class="social-link">Instagram</a>
@@ -31,6 +37,7 @@
             </div>            
         </aside>
 
+        <!--Slider-->
         <div class="slider">
             <div class="slide">
                 <span lang="en" class="suptitle-secondary">A hair salon for men in Kyiv</span>
@@ -54,8 +61,10 @@
 
     </header>
 
+    <!--Main content-->
     <main class="layout">
 
+        <!--About Us-->
         <section class="section-box" id="about-section">
             <div class="about_image-box">
                 <img src="./images/about-1.jpg" alt="Намазываем пену">
@@ -73,6 +82,7 @@
              </div>             
         </section>
 
+        <!--Price-->
         <section class="section-box" id="price-section">
             <span  class="suptitle-secondary">Проведи время в компании лучших мастеров</span>
             <h2 class="section-title lighten">Услуги и цены</h2>
@@ -116,6 +126,8 @@
             </div>
             <a href="#footer" class="primary-btn">Онлайн запись</a>
         </section>
+
+        <!--Why us-->
         <section class="section-box" id="why-section">
             <div class="number-container">
                 <div class="number-box">
@@ -143,6 +155,8 @@
             </div>
             
         </section>
+
+        <!--Our masters-->
         <section class="section-box" id="masters-section">
             <span class="suptitle-primary">для настоящих ценителей атмосферы</span>
             <h2 class="section-title">Наши мастера</h2>
@@ -180,6 +194,7 @@
             </ul>
         </section>
 
+<!--Gallery-->
         <section class="section-box">
             <span class="suptitle-primary">На латинском языке “барба” означает “борода”</span>
             <div class="image-gallery">
@@ -191,8 +206,38 @@
         </section>
 
     </main>
+<!--Footer-->
+    <foter class="footer" id="footer">
+        <div>
+            <h2 class="section-title lighten">Онлайн-запись</h2>
+            <form action="">
+                <input type="submit" class="primary-btn">
+            </form>
+        </div>
+        <div>
+            <h2 class="section-title">контакти</h2>
+            <div class="contacts-box">
+                <adress>ул. Васильковая, 7А
+                Киев, 08132</adress>
+                <a href="tell:+38 044 111 11 11">+38 044 111 11 11</a>
+                <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+            </div>
 
-    <foter class="footer" id="footer"></foter>
+            <div class="shedule-box">
+                <span class="suptitle-secondary">время работы</span>
+                <p>Ежедневно с 9:00 до 22:00</p>
+            </div>
+
+        </div>
+    </foter>
+
+    <div class="copyright">
+        <p class="copy-text">&copy Copyright <span>2020</span></p>
+        <div class="social-box">
+            <a href="" class="social-link">Instagram</a>
+            <a href="" class="social-link">YouTube</a>
+        </div>
+    </div>
 
 </body>
 </html>
